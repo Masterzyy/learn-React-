@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./build/browser.min.js"></script>
+    <script src="./build/react.js"></script>
+    <script src="./build/react-dom.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="n"></div>
+    <script type="text/babel">
+    var arr=[
+        <h1 key='1'>React</h1>,
+        <i key='2'>new day</i>,
+    ] 
+
+    ReactDOM.render(
+        <div>{arr}</div>,
+        document.getElementById('n')
+    )
+
+    
+    </script>
+</body>
+</html>
